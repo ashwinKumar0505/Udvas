@@ -1,0 +1,67 @@
+.Consultation {
+  display: flex;
+  padding: 60px 110px;
+  justify-content: space-between;
+  background-image: linear-gradient(to right,
+      #fdf9f8,
+      #f3f8fc);
+  margin-bottom: 70px;
+
+}
+
+.Desc {
+  width: 45%;
+}
+
+
+.Desc p {
+  font-size: inherit;
+}
+
+.Consult {
+  width: 43%;
+  position: relative;
+}
+
+.Email {
+  border-radius: 25px;
+  height: 45px;
+  padding-left:20px ; 
+  width: 80%;
+  outline: none;
+}
+
+.GetButton {
+  background-color: #746bfa;
+  width: 35%;
+  height: 45px;
+
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+  position: absolute;
+  right:50px;
+
+}
+
+@media (max-width:1250px){
+  .Consultation{
+    flex-direction: column;
+  }
+  .Desc{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .Consult{
+    width: 90%;
+  }
+}
+@media (max-width:850px){
+  .Consultation{
+    padding: 60px 10px;
+    align-items: center;
+  }
+  .GetButton{
+    right:5px
+  }
+}

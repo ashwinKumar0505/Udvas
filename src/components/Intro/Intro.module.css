@@ -1,0 +1,38 @@
+.Intro{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.Intro h1,h3,h4{
+  line-height: 45px;
+}
+.Intro h3,h4{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Intro h1{
+  font-size: 47px;
+  letter-spacing: 4px;
+  color: rgb(50, 50, 50);
+}
+.desc{
+  width:35%;
+  margin:150px;
+}
+@media (max-width:1000px){
+  .desc{
+    width: 50%;
+  }
+}
+@media (max-width:750px){
+  .desc{
+    width:90%;
+    font-size: 14px;
+    margin: 150px 0;
+  }
+  .Intro h1{
+    font-size: 25px;
+  }
+}

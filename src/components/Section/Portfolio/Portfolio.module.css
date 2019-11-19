@@ -1,0 +1,46 @@
+.Portfolio {
+  width: 45%;
+}
+.Portfolio h2{
+  text-align: center;
+}
+
+.Portfolio p {
+  text-align: center;
+}
+
+.Webpage {
+  width: 250px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5%;
+  outline-offset: -101px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  z-index: 100;
+}
+.Webpage:nth-child(2){
+   outline: 100px solid rgb(133, 108, 250,0.8) !important;
+ 
+}
+.templates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px
+}
+.Webpage:hover {
+  outline: 100px solid rgb(133, 108, 250,0.8) !important;
+  }
+  .Webpage:hover .Infinite{
+    display: inline;
+  }
+
+@media (max-width:1200px) {
+  .Portfolio {
+    width: 100%;
+    margin-top: 100px
+  }
+}

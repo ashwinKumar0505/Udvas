@@ -1,0 +1,76 @@
+.Contact {
+  width: 100%;
+  display: flex;
+  margin-bottom: 280px;
+}
+
+.ContactUs {
+  flex: 1;
+  padding: 50px 100px;
+  background-color: #fbfaff;
+}
+
+.ContactUs p {
+  margin-bottom: 30px;
+}
+
+.Blog {
+  flex: 1;
+}
+
+.Name,
+.Email,
+.Subject {
+  height: 41px;
+  padding: 5px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid #c9c3c3;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.Name,
+.Email {
+  width: 45%;
+}
+
+.Subject {
+  width: 94%;
+}
+
+.Message {
+  height: 180px;
+  width: 94%;
+  padding: 5px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid #c9c3c3;
+  background-color: transparent;
+  padding-left: 10px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+@media (max-width:1300px) {
+
+  .Name,
+  .Email {
+    width: 93%;
+  }
+
+  .ContactUs {
+    padding: 50px 10px
+  }
+}
+
+@media (max-width:850px) {
+  .Contact {
+    flex-direction: column;
+  }
+
+  .ContactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

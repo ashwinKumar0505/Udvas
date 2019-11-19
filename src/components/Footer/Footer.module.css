@@ -1,0 +1,16 @@
+.Footer{
+  background-color: #766bfa;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  padding-top:133px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.SocialIcons{
+  padding-bottom:20px;
+}
+.Copyrights{
+  color: white;
+}

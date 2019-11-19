@@ -1,0 +1,69 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Title {
+  padding: 30px 20px;
+  font-size: 29px;
+  border-bottom-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  font-weight: 500;
+  color: white;
+  background-color: #766bfa;
+}
+
+.HeaderItems {
+  display: flex;
+  width: 40%;
+  margin: 20px 30px;
+  padding: 0 60px;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.HeaderItems span {
+  align-self: center;
+  cursor: pointer;
+
+}
+
+.HeaderItems span:hover {
+  color: grey;
+}
+
+.HeaderItems span:active {
+  color: grey;
+}
+
+.SocialIcons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width : 1100px) {
+  .HeaderItems {
+    width: 60%;
+  }
+
+  .SocialIcons {
+    width: 20%;
+  }
+}
+
+@media (max-width:750px) {
+  .HeaderItems {
+    display: none;
+  }
+
+  .Header {
+    justify-content: space-between;
+  }
+
+  .SocialIcons {
+    width: 50%;
+  }
+}

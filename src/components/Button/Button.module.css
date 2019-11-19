@@ -1,0 +1,24 @@
+.Button {
+  padding: 13px 0px;
+  width: 150px;
+  color: white;
+  background-color: rgb(118, 107, 250);
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: black 0px 2px 5px 2px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  transform: translateY(-1px);
+}
+
+.Button:active {
+  transform: translateY(0);
+}
+
+@media (max-width:750px) {
+  .Button {
+    width: 139px;
+  }
+}

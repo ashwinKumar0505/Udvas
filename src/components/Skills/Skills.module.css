@@ -1,0 +1,262 @@
+.Skills {
+  width: 45%;
+  font-size: 15px;
+}
+
+.Heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.SkillRating {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px
+}
+
+.Skills svg {
+  position: relative;
+  width: 100px;
+  margin: 10px;
+  height: 100px;
+  z-index: 1000;
+}
+
+svg circle {
+  fill: none;
+  stroke: white;
+  stroke-width: 5;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+.Card:nth-child(1) svg circle:nth-child(2) {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 190;
+}
+
+.Card:nth-child(2) svg circle:nth-child(2) {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 210;
+}
+
+.Card:nth-child(3) svg circle:nth-child(2) {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 220;
+}
+
+.Card:nth-child(4) svg circle:nth-child(2) {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 200;
+}
+
+.Card:nth-child(1) svg circle:nth-child(2) {
+  stroke: rgb(109, 196, 120);
+}
+
+.Card:nth-child(2) svg circle:nth-child(2) {
+  stroke: rgb(241, 101, 38);
+}
+
+.Card:nth-child(3) svg circle:nth-child(2) {
+  stroke: rgb(118, 107, 250);
+}
+
+.Card:nth-child(4) svg circle:nth-child(2) {
+  stroke: rgb(238, 85, 140);
+}
+
+.Rating {
+  position: relative;
+}
+
+.Percentage {
+  position: absolute;
+  top: 44px;
+  left: 32px;
+  font-weight: 600;
+}
+
+.Number {
+  font-size: 24px;
+
+}
+
+.Card:nth-child(1) .Percentage {
+  color: rgb(109, 196, 120);
+}
+
+.Card:nth-child(2) .Percentage {
+  color: rgb(241, 101, 38);
+}
+
+.Card:nth-child(3) .Percentage {
+  color: rgb(118, 107, 250);
+}
+
+.Card:nth-child(4) .Percentage {
+  color: rgb(238, 85, 140);
+}
+
+.SkillName {
+  text-align: center;
+  font-size: 15px;
+}
+
+.Card {
+  margin-right: 20px;
+}
+
+.SmallInfo {
+  margin-bottom: 30px;
+}
+
+.WorksSkills h3 {
+  font-size: 23px;
+}
+
+.WorksSkills {
+  margin-bottom: 20px;
+}
+
+.SkillsBar p {
+  margin-bottom: 10px;
+}
+
+.SkillsBar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skill1,
+.Skill2,
+.Skill3,
+.Skill4 {
+  margin: 20px 15px;
+  position: relative;
+}
+
+.Skill1 .Color {
+  background-color: rgb(245, 148, 94);
+  width: 95%;
+}
+
+.Skill2 .Color {
+  background-color: rgb(115, 93, 183);
+  width: 85%;
+}
+
+.Skill3 .Color {
+  background-color: rgb(72, 190, 237);
+  width: 80%;
+}
+
+.Skill4 .Color {
+  background-color: rgb(242, 78, 109);
+  width: 90%;
+}
+
+.Rating1 {
+  position: absolute;
+  right: 0;
+  background-color: rgb(245, 148, 94);
+}
+
+.Rating1,
+.Rating2,
+.Rating3,
+.Rating4 {
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  top: -5px
+}
+
+.Rating1::before {
+  content: "";
+  border-style: solid;
+  border-width: 3px 7px 2px 0;
+  border-color: transparent #f5945e transparent transparent;
+  position: absolute;
+  left: 9px;
+  transform: rotate(-90deg);
+  bottom: -6px;
+}
+
+
+.Rating2::before {
+  content: "";
+  border-style: solid;
+  border-width: 3px 7px 2px 0;
+  border-color: transparent rgb(115, 93, 183) transparent transparent;
+  position: absolute;
+  left: 9px;
+  transform: rotate(-90deg);
+  bottom: -6px;
+}
+
+.Rating3::before {
+  content: "";
+  border-style: solid;
+  border-width: 3px 7px 2px 0;
+  border-color: transparent rgb(72, 190, 237) transparent transparent;
+  position: absolute;
+  left: 9px;
+  transform: rotate(-90deg);
+  bottom: -6px;
+}
+
+.Rating4::before {
+  content: "";
+  border-style: solid;
+  border-width: 3px 7px 2px 0;
+  border-color: transparent rgb(242, 78, 109)transparent transparent;
+  position: absolute;
+  left: 9px;
+  transform: rotate(-90deg);
+  bottom: -6px;
+}
+
+.Rating2 {
+  position: absolute;
+  background-color: rgb(115, 93, 183);
+  right: 30px;
+}
+
+.Rating3 {
+  position: absolute;
+  background-color: rgb(72, 190, 237);
+  right: 45px;
+}
+
+.Rating4 {
+  position: absolute;
+  background-color: rgb(242, 78, 109);
+  right: 15px;
+}
+
+.Bar {
+  min-height: 4px;
+  width: 290px;
+  background-color: #d3d8d3;
+  height: 0px;
+}
+
+.Color {
+  min-height: 4px;
+}
+
+@media (max-width:1300px) {
+  .Skills {
+    width: 100%;
+    text-align: center;
+  }
+
+  .SkillRating {
+    justify-content: center;
+  }
+
+  .SkillsBar {
+    justify-content: center;
+  }
+}

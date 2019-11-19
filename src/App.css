@@ -1,0 +1,54 @@
+.App{
+  font-family: 'Overpass', sans-serif; 
+}
+*{
+  margin:0;
+  border:0
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+.fa {
+  padding: 5px;
+  border-radius: 100%;
+  font-size: 30px;
+  width:16px;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  border:1px solid rgb(204, 204, 204)
+}
+
+.fa:hover {
+  background: rgb(118, 107, 250);
+  color: white;
+
+}
+
+.fa-facebook {
+  background: white;
+  color: rgb(204, 204, 204);
+}
+
+.fa-twitter {
+ background: white;
+  color: rgb(204, 204, 204);
+}
+
+.fa-instagram {
+  background: rgb(118, 107, 250);
+  color: white;
+}
+
+.fa-linkedin {
+ background: white;
+  color: rgb(204, 204, 204);
+}
+.PageEnd{
+  position: relative;
+}

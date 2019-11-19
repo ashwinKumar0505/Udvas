@@ -1,0 +1,155 @@
+.Blog {
+  background-color: #f9f8ff;
+  padding: 50px 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Blog h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+
+}
+
+.Blog img {
+  width: 100%;
+  height: 180px;
+}
+
+.Blog1,
+.Blog2 {
+  width: 45%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.Blog1 {
+  box-shadow: black 0px 5px 20px -3px;
+}
+
+.Blog1 h4 {
+  color: #49bfef
+}
+
+.Desc {
+  padding: 20px;
+
+}
+
+.Blogs {
+  margin: 30px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Blog h4 {
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.Blog1 p,
+.Blog2 p {
+  text-align: center;
+}
+
+.Pages {
+  width: 7%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.Dot1,
+.Dot2,
+.Dot3 {
+  height: 8px;
+  width: 8px;
+  background-color: #d7d4d4;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Dot2 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: -1px;
+  background-color: #766bfa;
+}
+
+.BlogImage1 {
+  position: relative;
+}
+
+.Date1,
+.Date2 {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  padding: 17px 10px;
+  font-size: 13px;
+
+}
+
+.Date1 {
+  background-color: #49bfef;
+  color: white;
+}
+
+.Date2 {
+  color: #49bfef;
+  background-color: white;
+}
+
+.Blog2:hover {
+  color: #49bfef;
+  box-shadow: black 0px 5px 20px -3px;
+}
+
+.Blog2:hover .Date2 {
+  background-color: #49bfef;
+  color: white;
+
+}
+
+@media (max-width:1300px) {
+
+  .Blog {
+    padding: 50px 10px
+  }
+}
+
+@media (max-width:750px) {
+  .Blog {
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .Blogs {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Blog1,
+  .Blog2 {
+    width: 90%;
+    align-self: center;
+  }
+
+  .Blog1 {
+    margin-bottom: 30px;
+  }
+
+  .Pages {
+    width: 12%;
+  }
+
+}

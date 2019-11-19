@@ -1,0 +1,138 @@
+.Personal {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.Experience {
+  width: 52%;
+}
+
+.Exp {
+  display: flex;
+  margin-top: 30px;
+}
+.ExpName{
+  font-size: 15px;
+}
+.Left {
+  border-right: 1px dotted black;
+  position: relative;
+
+}
+
+.Right {
+  position: relative;
+
+}
+
+.Heading {
+  text-align: center;
+}
+
+.Exp1,
+.Exp2,
+.Exp3,
+.Exp4 {
+  padding: 10px 20px;
+  margin: 0 15px;
+  font-size: 14px;
+  width: 68%;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.Exp1 {
+  border: 2px solid #64c26d;
+  margin-top: 30px;
+}
+
+.Exp2 {
+  border: 2px solid #f16828;
+  margin-top: 165px;
+}
+
+.Exp3 {
+  border: 2px solid #9c83fb;
+  margin-top: 134px;
+
+}
+
+.Exp4 {
+  border: 2px solid #ee5a98;
+  margin-top: 134px;
+}
+.ExpDetails{
+  font-size: 14px !important;
+}
+.Dot1,
+.Dot2,
+.Dot3,
+.Dot4 {
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.Dot1 {
+  right: -8px;
+  top: 26px;
+  background-color: #64c26d;
+}
+
+.Dot2 {
+  background-color: #f16828;
+  right: -8px;
+  top: 159px;
+}
+
+.Dot3 {
+  background-color: #9c83fb;
+  left: -8px;
+  top: 291px;
+}
+
+.Dot4 {
+  background-color: #ee5a98;
+  left: -8px;
+  bottom: 121px;
+}
+@media (max-width:1300px){
+  .Info{
+    flex-direction: column;
+  }
+  .Experience{
+    width: 100%;
+  }
+}
+@media (max-width:700px){
+  .Info{
+    margin:0;
+  }
+  .Exp{
+    font-size: 12px;
+  }
+  .ExpDetails{
+    display: none;
+  }
+  .Exp1,.Exp2,.Exp3,.Exp4{
+    margin-left:19px;
+    width: 58%;
+    font-size: 12px;
+  }
+  .ExpName{
+    font-size: 13px;
+  }
+}

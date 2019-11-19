@@ -1,0 +1,15 @@
+.Section{
+  display: flex;
+  padding:60px 100px;
+  justify-content: space-between;
+}
+@media (max-width:1200px){
+  .Section{
+    flex-direction: column;
+  }
+}
+@media (max-width:750px){
+  .Section{
+    padding:60px 10px;
+  }
+}
